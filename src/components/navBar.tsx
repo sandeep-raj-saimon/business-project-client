@@ -2,15 +2,11 @@ import "bootstrap";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../style/navbar.css";
-interface Props {
-  handleLogin: () => void;
-}
+
 const Navbar = () => {
   // state management
   const navigate = useNavigate();
   const [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
-  const [user, setUser] = useState(null);
-  const [isLoginClicked, setIsLoginClicked] = useState(false);
   // handler
   const handleLogin = async () => {
     navigate("login");

@@ -1,14 +1,8 @@
-import { useState } from "react";
-import { useSearchParams } from "react-router-dom";
-
 const Registration = () => {
   const handleLogin = () => {
     console.log("Login button has been clicked");
   };
 
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [password, setPassword] = useState("");
-  const [email, setEmail] = useState("");
   return (
     <div className={``}>
       <div className="login-form">

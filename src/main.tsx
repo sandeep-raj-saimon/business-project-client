@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
 import Layout from "./components/layout";
 import Home from "./components/home";
 import Account from "./components/account";
