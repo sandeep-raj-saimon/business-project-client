@@ -4,12 +4,8 @@ import { useState } from "react";
 import Login from "./login";
 import "../style/login.css";
 const Layout = () => {
-  const [isLoginClicked, setIsLoginClicked] = useState(false);
+  const [isLoginClicked] = useState(false);
 
-  const handleClick = () => {
-    console.log("Login has been clicked");
-    setIsLoginClicked(true);
-  };
   return (
     <>
       <Navbar />
