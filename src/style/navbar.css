@@ -1,0 +1,22 @@
+#nav {
+    background-color: plum;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar-toggler {
+    background-color: red;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#navbar-dropdown {
+    background-color: aquamarine;
+}
